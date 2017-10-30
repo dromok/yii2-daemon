@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist Dromok/yii2-daemon "*"
+php composer.phar require --prefer-dist dromok/yii2-daemon "*"
 ```
 
 or add
 
 ```
-"Dromok/yii2-daemon": "*"
+"dromok/yii2-daemon": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -31,7 +31,7 @@ Do the following steps:
 
 namespace console\controllers;
 
-class WatcherDaemonController extends \Dromok\daemon\controllers\WatcherDaemonController
+class WatcherDaemonController extends \dromok\daemon\controllers\WatcherDaemonController
 {
     /**
      * @return array
@@ -63,7 +63,7 @@ Usage
 
 namespace console\controllers;
 
-use \Dromok\daemon\DaemonController;
+use \dromok\daemon\DaemonController;
 
 class {NAME}DaemonController extends DaemonController
 {
