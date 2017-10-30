@@ -337,6 +337,7 @@ abstract class DaemonController extends Controller
                 //user signal, not implemented
                 break;
             case SIGCHLD:
+				$pid = (is_array($pid)) ? $pid['pid'] : $pid;
                 if (!$pid) {
                     $pid = pcntl_waitpid(-1, $status, WNOHANG);
                 }
