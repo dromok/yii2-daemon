@@ -1,8 +1,8 @@
 <?php
 
-namespace vyants\daemon\controllers;
+namespace dromok\daemon\controllers;
 
-use vyants\daemon\DaemonController;
+use dromok\daemon\DaemonController;
 
 /**
  * watcher-daemon - check another daemons and run it if need

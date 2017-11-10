@@ -1,6 +1,6 @@
 <?php
 
-namespace vyants\daemon;
+namespace dromok\daemon;
 
 use yii\base\NotSupportedException;
 use yii\console\Controller;
