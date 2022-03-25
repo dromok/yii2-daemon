@@ -1,5 +1,5 @@
 <?php
-
+//updated 26.03.2022
 namespace dromok\daemon;
 
 use yii\base\NotSupportedException;
